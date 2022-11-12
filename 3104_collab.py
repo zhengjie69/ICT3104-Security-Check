@@ -337,8 +337,7 @@ display(video_dropdown)
 
 #Set the selected video to the iPyWidget video function and display the video playback
 video_dir = str(os.getcwd()) + '/Datasets/Video/'
-selected_video = Video.from_file(video_dir + vidCat_dropdown.value + '/'+ video_dropdown.value)
-selected_video
+Video.from_file(video_dir + vidCat_dropdown.value + '/'+ video_dropdown.value)
 
 
 # <h1>Model Training Sequence</h1>
