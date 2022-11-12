@@ -19,25 +19,25 @@
 
 
 #For testing and training of model
-pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
-pip install tqdm
-pip install timm==0.4.12 scikit-learn
+# pip install torch==1.10.1+cu113 torchvision==0.11.2+cu113 torchaudio==0.10.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+# pip install tqdm
+# pip install timm==0.4.12 scikit-learn
 
 
 # In[ ]:
 
 
 #For feature extraction
-pip install omegaconf==2.0.6
-pip install opencv-python
+# pip install omegaconf==2.0.6
+# pip install opencv-python
 
 
 # In[ ]:
 
 
 #For inference
-pip install pandas
-pip install moviepy
+# pip install pandas
+# pip install moviepy
 
 
 # <h1>Adding New videos/Category to the dataset</h1>
